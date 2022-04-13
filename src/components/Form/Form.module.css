@@ -1,0 +1,131 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+.filePicker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 1rem;
+}
+.error {
+  padding: 0 0.5rem;
+}
+
+.photoError {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+.fileInput {
+  /* background-color: #d3001c; */
+}
+.filePhoto {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  justify-content: space-evenly;
+}
+.fileError {
+  color: red;
+  position: absolute;
+  font-size: 14px;
+  bottom: 0;
+}
+
+.photo {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.photoReplacement {
+  height: 4rem;
+  width: 4rem;
+}
+.fileButton {
+  align-self: center;
+  border: 0;
+  outline: 0;
+  background-color: skyblue;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 4px;
+}
+.fileButton:hover {
+  background-color: #4ab9e5;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.form-control label {
+  padding-bottom: 0.5rem;
+}
+.form-control input {
+  outline: none;
+  border-radius: 2px;
+  border: none;
+  background-color: #faebd8;
+  padding: 0.4rem;
+}
+.form-control input:focus {
+  background-color: #f7e5c1;
+}
+.form-action {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  /* background-color: yellow; */
+}
+.button {
+  outline: none;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.submit {
+  background-color: #0e7af6;
+}
+.submit:hover {
+  background-color: #0c5ab5;
+}
+.reset {
+  background-color: #da3348;
+}
+.reset:hover {
+  background-color: #d3001c;
+}
+.photo {
+  width: 5rem;
+  height: 5rem;
+}
+
+@media screen and (max-width: 1139px) {
+  .password {
+    padding-bottom: 2.5rem !important;
+  }
+}
+@media screen and (max-width: 860px) {
+  .password {
+    padding-bottom: 1.5rem;
+  }
+  .password p {
+    bottom: 20% !important;
+  }
+}
+@media screen and (max-width: 566px) {
+  .password {
+    padding-bottom: 2.5rem !important;
+  }
+  .password p {
+    bottom: 5% !important;
+  }
+}

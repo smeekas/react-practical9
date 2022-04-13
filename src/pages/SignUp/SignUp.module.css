@@ -1,0 +1,33 @@
+.signup {
+  display: flex;
+  width: 70vw;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.image {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.img {
+  margin-top: 2rem;
+  width: 400px;
+  height: 400px;
+}
+.form {
+  max-width: 25rem;
+  width: 25rem;
+  min-width: 0;
+}
+@media screen and (max-width: 860px) {
+  .signup {
+    justify-content: center;
+  }
+  .image {
+    display: none;
+  }
+}
