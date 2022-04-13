@@ -3,7 +3,7 @@ import girl from "../../assets/girl.png";
 import React from "react";
 import Form from "../../components/Form/Form";
 const SignUp = () => {
-  document.title="SignUp"
+  document.title="SignIn"
   return (
     <div className={styles.signup}>
      
